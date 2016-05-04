@@ -48,7 +48,6 @@ def main():
         except IOError:
             print("Data File Not Found.")
             print("Make sure there is a data.npy and label.npy in the program directory.")
-            print("Run getData.py to create the files.")
             print("Exiting...")
             exit()
             
